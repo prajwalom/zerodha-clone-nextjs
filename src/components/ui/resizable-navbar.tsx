@@ -290,12 +290,12 @@ export const NavbarButton = ({
 export function NavbarDemo() {
   const navItems = [
     {
-      name: "Features",
-      link: "#features",
+      name: "Home",
+      link: "#home",
     },
     {
-      name: "Pricing",
-      link: "#pricing",
+      name: "About Us",
+      link: "#About us",
     },
     {
       name: "Contact",
@@ -355,7 +355,7 @@ export function NavbarDemo() {
                 variant="primary"
                 className="w-full"
               >
-                Book a call
+                Sign Up
               </NavbarButton>
             </div>
           </MobileNavMenu>
