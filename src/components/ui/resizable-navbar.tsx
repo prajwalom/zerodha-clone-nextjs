@@ -233,7 +233,7 @@ export const MobileNavToggle = ({
 export const NavbarLogo = () => {
   return (
     <a
-      href="#"
+      href=""
       className="relative z-20 mr-4 flex items-center space-x-2 px-2 py-1 text-sm font-normal text-black"
     >
       <img
@@ -311,8 +311,14 @@ export function NavbarDemo() {
           <NavbarLogo />
           <NavItems items={navItems} />
           <div className="flex items-center gap-4">
-            <NavbarButton variant="secondary">Login</NavbarButton>
-            <NavbarButton variant="primary">Sign Up</NavbarButton>
+            <NavbarButton variant="secondary"
+            href="/login"
+            >Login
+             </NavbarButton>
+            <NavbarButton variant="primary"
+            href="/signup"
+            >
+              Sign Up</NavbarButton>
           </div>
         </NavBody>
  
@@ -345,6 +351,7 @@ export function NavbarDemo() {
                 onClick={() => setIsMobileMenuOpen(false)}
                 variant="primary"
                 className="w-full"
+                href="/login"
               >
                 Login
               </NavbarButton>
@@ -352,8 +359,9 @@ export function NavbarDemo() {
                 onClick={() => setIsMobileMenuOpen(false)}
                 variant="primary"
                 className="w-full"
+                href="/signup"
               >
-                Sign Up
+                 Signup
               </NavbarButton>
             </div>
           </MobileNavMenu>
