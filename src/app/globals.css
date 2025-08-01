@@ -174,7 +174,7 @@
 }
 
 .gradient-flow-text {
-  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background: linear-gradient(-45deg, #8952ee, #3c92e7, #d4e575, #d3d609);
   background-size: 400% 400%;
   animation: gradientFlow 4s ease infinite;
   background-clip: text;
